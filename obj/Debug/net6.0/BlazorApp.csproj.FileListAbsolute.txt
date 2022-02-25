@@ -1,0 +1,64 @@
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\appsettings.json
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\BlazorApp.staticwebassets.runtime.json
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\BlazorApp.exe
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\BlazorApp.deps.json
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\BlazorApp.runtimeconfig.json
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\BlazorApp.dll
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\ref\BlazorApp.dll
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\BlazorApp.pdb
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.AssemblyReference.cache
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfoInputs.cache
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfo.cs
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CoreCompileInputs.cache
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.RazorAssemblyInfo.cache
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.RazorAssemblyInfo.cs
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\scopedcss\bundle\BlazorApp.styles.css
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\scopedcss\projectbundle\BlazorApp.bundle.scp.css
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.dll
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.genruntimeconfig.cache
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\Majorsoft.Blazor.Components.Core.dll
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\Majorsoft.Blazor.Components.Tabs.dll
+C:\Users\udayasp\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CopyComplete
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\Blazored.Modal.dll
+C:\Users\udayasp\BlazorApp\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\appsettings.json
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\BlazorApp.staticwebassets.runtime.json
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\BlazorApp.exe
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\BlazorApp.deps.json
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\BlazorApp.runtimeconfig.json
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\BlazorApp.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\ref\BlazorApp.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\BlazorApp.pdb
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\Blazored.Modal.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\Majorsoft.Blazor.Components.Core.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\Majorsoft.Blazor.Components.Tabs.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.AssemblyReference.cache
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfoInputs.cache
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfo.cs
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CoreCompileInputs.cache
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.RazorAssemblyInfo.cache
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.RazorAssemblyInfo.cs
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\scopedcss\bundle\BlazorApp.styles.css
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\scopedcss\projectbundle\BlazorApp.bundle.scp.css
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CopyComplete
+C:\Pradhiksha\BAGC\3rd term\Software Engg Concepts\Smart Track\BlazorApp\obj\Debug\net6.0\BlazorApp.genruntimeconfig.cache

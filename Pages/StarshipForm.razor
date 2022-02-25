@@ -1,0 +1,119 @@
+<div class="form-section">
+    <h4 class="text-center">Job Apply Form</h4>
+    <EditForm Model="@starship" OnValidSubmit="@HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="name">Employee Name: </label>
+            </div>
+            <div class="col-lg-6">
+                <InputText id="name" @bind-Value="starship.EmployeeName"/>
+                <ValidationMessage For="() => starship.EmployeeName" />
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-lg-6">
+                <label for="employeeid">EmployeeID: </label>
+            </div>
+            <div class="col-lg-6">
+                <InputText id="employeeid" @bind-Value="starship.EmployeeID"/>
+                <ValidationMessage For="() => starship.EmployeeID" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="email">Email: </label>
+            </div>
+            <div class="col-lg-6">
+                <InputText id="email" @bind-Value="starship.Email" />
+                <ValidationMessage For="() => starship.Email" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="phone">Contact Number: </label>
+            </div>
+            <div class="col-lg-6">
+                <InputText id="phone" @bind-Value="starship.PhoneNumber" />
+                <ValidationMessage For="() => starship.PhoneNumber" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="location">Location: </label>
+            </div>
+            <div class="col-lg-6">
+                <InputText id="location" @bind-Value="starship.Location" />
+                <ValidationMessage For="() => starship.Location" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="skillset">Skillset (required): </label>
+            </div>
+            <div class="col-lg-6">
+                <InputTextArea id="skillset" @bind-Value="starship.Skillset" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="yearsofexp">Years of Experience: </label>
+            </div>
+            <div class="col-lg-6">
+                <InputText id="yearsofexp" @bind-Value="starship.YearsofExp" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="teamreqname">Team Request Name: </label>
+            </div>
+            <div class="col-lg-6">
+                <InputText id="teamreqname" @bind-Value="starship.TeamReqName" />
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary text-center">Submit</button>
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    private Starship starship = new Starship();
+    //starship.EmployeeName = "Pradhiksha GunaSekaran";
+    //starship.EmployeeID = "A00245223";
+    //starship.Email = "imcool3.pradhiksha.gmail.com";
+    
+    //starship.Name.setValue("Pradhiksha Gunasekaran");
+    
+    protected override void OnInitialized()
+    {
+        // for demo purposes, if you delete user.Email in the login dialog, you'll need to press 'Cancel' 2 times.
+        starship.EmployeeName = "Pradhiksha";
+        starship.EmployeeID = "A00245223";
+        starship.Email = "imcool3.pradhiksha@gmail.com";
+        starship.TeamReqName = "";
+    }
+    
+    [Parameter]
+    public EventCallback<string> closeModal {get; set;}
+
+    public async Task HandleValidSubmit()
+    {
+        // Save the data
+        await closeModal.InvokeAsync();
+    }
+}
+
+<style>
+    .form-section .row{
+        margin-bottom:15px;
+    }
+    .form-section h4{
+        margin-bottom:20px;
+    }
+    .form-section input,.form-section textarea{
+        width:100%;
+    }
+</style>

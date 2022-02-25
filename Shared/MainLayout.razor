@@ -1,0 +1,124 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Smart Track</PageTitle>
+
+@if (isLoggin)
+{
+    <div class="page">
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+        <main>
+            <div class="top-row px-4">
+                <!--<a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>-->
+                <span class="oi oi-person" aria-hidden="true"> &nbsp;Pradhiksha</span> <br />
+                <button type="button" class="btn btn-link logout" @onclick="Logout"><span class="oi oi-account-logout" aria-hidden="true"></span> &nbsp;Logout</button>
+            </div>
+            <article class="content px-4">
+                @Body
+            </article>
+        </main>
+    </div>
+}else{
+    <div class="login-container">
+        <div class="loginPage">
+            <h1 class="text-center"><span><img class="logo" src="/smart_track_logo.jpg"></span>&nbsp;SMART TRACK</h1>
+            <h4 class="text-center">Login Form</h4>
+            <EditForm Model="@login" OnValidSubmit="@HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="name">Name: </label>
+                    </div>
+                    <div class="col-lg-6">
+                        <InputText id="name" @bind-Value="login.Name" />
+                        <ValidationMessage For="() => login.Name" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="email">Password: </label>
+                    </div>
+                    <div class="col-lg-6">
+                        <InputText  type="password" id="password" @bind-Value="login.Password" />
+                        <ValidationMessage For="() => login.Password" />
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary text-center">Submit</button>
+                </div>
+            </EditForm>
+            @if (loginFailure){
+                <div class="row red-color">
+                    <p>Login Failure</p>
+                    <p>Invalid User Name or Password</p>
+                </div>
+            }
+        </div>
+    </div>
+}
+@code {
+    bool isLoggin;
+    bool loginFailure;
+    private Login login = new Login();
+    
+    public async Task HandleValidSubmit()
+    {
+        // Save the data
+        if((login.Name == "pradhiksha") && (login.Password == "357")){
+            isLoggin = true;
+        }else{
+            loginFailure = true;
+        }
+    }
+    
+    private void Logout(){
+        isLoggin = false;
+        login.Name = string.Empty;
+        login.Password = string.Empty;
+    }
+}
+<style>
+    html,body{
+        height:100%;
+    }
+    .login-container{
+        height: 100%;
+        background: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    }
+    
+    .loginPage{
+        border:1px solid #d1d1d1;
+        height:350px;
+        width:500px;
+        //margin:10% auto 0;
+        padding:20px;
+        position: relative;
+        top: 20%;
+        margin: auto;
+        background:#fff;
+    }
+    .red-color p{
+        color:red;
+    }
+    .loginPage h4{
+        margin-bottom:30px;
+    }
+    .loginPage .row{
+        margin-bottom:20px;
+    }
+    .logout {
+        text-decoration: none;
+    }
+
+    .logout:hover {
+        color: #fff;
+        background: #0071c1;
+    }
+</style>
+Editor
+Compare & merge
+Clear
+Export as PDF
+Save DiffShare
+
